@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.app {
+  margin: 2.5rem;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.left-side {
+  display: flex;
+  flex-direction: row;
+  column-gap: 2rem;
+}
+.header .left-side .logo {
+  width: 6rem;
+  height: 6rem;
+  object-fit: fill;
+}
+.location {
+  display: flex;
+  flex-direction: row;
+  column-gap: 1.3rem;
+  justify-content: center;
+  align-items: center;
+  color: red;
+  font-size: 1.1rem;
+}
+.right-side {
+  display: flex;
+  flex-direction: row;
+  column-gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+.all-products {
+  display: flex;
+  flex-direction: row;
+  column-gap: 1rem;
+  color: red;
+  justify-content: center;
+  align-items: center;
+}
+.all-products .fa-bell-concierge {
+  font-size: 2rem;
+}
+.guests {
+  display: flex;
+  flex-direction: row;
+  column-gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+.guests .fa-user-tie {
+  font-size: 2.2rem;
+}
+.guests h3 {
+  color: gray;
+  font-weight: 50;
+}
+.guests .fa-caret-down {
+  color: gray;
+  font-size: 2rem;
+}
+.cart {
+  display: flex;
+  flex-direction: row;
+  column-gap: 1rem;
+  color: red;
+}
+.cart .fa-bag-shopping {
+  font-size: 2rem;
+  position: absolute;
+}
+.order-number {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(104, 8, 8);
+  color: white;
+  padding: 0.3rem;
+  border-radius: 0.5rem;
+  width: 1.2rem;
+  height: 1.3rem;
+  position: relative;
+  left: 1rem;
+  bottom: 0.3rem;
+}
+.order-number h3 {
+  font-weight: 70;
+}
+.Banner {
+  display: flex;
+  flex-direction: column;
+  margin: 1.5rem auto;
+}
+.Banner img {
+  border-radius: 0.7rem;
+}
